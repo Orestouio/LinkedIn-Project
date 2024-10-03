@@ -1,0 +1,170 @@
+/* Existing Styles */
+nav {
+    position: relative;
+    z-index: 1;
+    background-color: #007BFF;
+    /* Added background color for navbar */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: #007BFF solid 10px;
+}
+
+form input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    z-index: 2;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #004182;
+    color: white;
+    border: none;
+    z-index: 2;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    /* Added margin-top for spacing */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    /* Increased padding for better spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Added box shadow for better visual */
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    /* Increased padding for better spacing */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Added padding for better appearance */
+    border-radius: 5px;
+    /* Added border radius */
+    border: 1px solid #ccc;
+}
+
+button {
+    align-items: flex-start;
+    display: block;
+    padding: 10px;
+    /* Added padding for better appearance */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Added border radius */
+    cursor: pointer;
+    margin: 0.5rem;
+    margin: 2px
+
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Added hover effect */
+}
+
+.timeline .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* Added border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Added box shadow for better visual */
+}
+
+.timeline .post small {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Additional Navbar Styles */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #02448b;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.welcomePage h1 {
+    line-height: 1.25;
+    text-align: center;
+    color: #526a6e;
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Fira Sans', 'Oxygen Sans', 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.welcomePage p {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.6);
+    background: transparent;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.grid-item:hover {
+    background-color: #e9ecef;
+}
